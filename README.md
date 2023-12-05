@@ -19,7 +19,8 @@ CREATE YOUR OWN BAT DETECTOR: Once built, you will have your very own handmade h
 The currently shown frequency signifies the audible ultrasound frequency that can be heard.                            
 ![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/2fbcae93-2701-408a-9362-a53cdf28610b)
 
-The change in wiring for the frequency display. Using an ESP32 and combined OLED. Along with a buck converter for 9v to 5v                            
+The change in wiring for the frequency display. Using an ESP32 and combined OLED. Along with a buck converter for 9v to 5v                 
+There's a link at the bottom to see the wiring up close..........              
 ![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/b6df16c4-19a4-44f3-ba6f-7879191f1fca)
                             
 An ultrasonic generator being used to test the displayed frequency is in fact audible.                            
