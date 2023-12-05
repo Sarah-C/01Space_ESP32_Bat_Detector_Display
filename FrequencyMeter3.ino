@@ -1,6 +1,4 @@
-/* Frequency counter and display.
-
-   This code is in the Public Domain (or CC0 licensed, at your option.)
+/* Frequency counter and display - early draft, I wouldn't use this one.
 
    Unless required by applicable law or agreed to in writing, this
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
