@@ -23,7 +23,7 @@ The change in wiring for the frequency display. Using an ESP32 and combined OLED
 There's a link at the bottom to see the wiring up close..........              
 ![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/b6df16c4-19a4-44f3-ba6f-7879191f1fca)
                             
-An ultrasonic generator being used to test the displayed frequency is in fact audible.                            
+An ultrasonic generator (just a cheap square wave generator module!) being used to test the displayed frequency is in fact audible.                            
 ![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/e29cf32b-9e12-46b9-b09b-cfe6bf0d2655)
                             
 Larger copies:                            
