@@ -1,8 +1,9 @@
 # 01Space ESP32 module, Hayes Bat Detector frequency display.
 
 This code is for running on the 01Space ESP32 C3-OLED-Pico (an ESP32 varient combined with a mini 0.42" OLED display).              
-With it programmed, and connected up to the Haynes Bat Detector circuitry, you can have an accurate frequency monitor to display the currently monitored audio frequency.              
-![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/86e3f794-9da1-466e-9be8-bd02c9dc0e44)                             
+With it programmed, and connected up to the Haynes Bat Detector circuitry, you can have an accurate frequency monitor to display the currently monitored audio frequency.                 
+
+![image](https://github.com/Sarah-C/01Space_ESP32_Bat_Detector_Display/assets/1586332/fb5f0ca4-ff7c-47a5-94c3-a5fc8807c7ef)
                             
 https://www.aliexpress.com/item/1005004942536689.html                     
 https://templates.blakadder.com/01space_ESP32-C3-0_42LCD.html                      
