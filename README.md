@@ -3,7 +3,7 @@
 This code is for running on the 01Space ESP32 C3-OLED-Pico (an ESP32 varient combined with a mini 0.42" OLED display).              
 With it programmed, and connected up to the Haynes Bat Detector circuitry, you can have an accurate frequency monitor to display the currently monitored audio frequency.                 
 
-FrequencyMeter3.ino : This was an early prototype without using the shorthand "attachInterupt" function, and is just included for interest.                                    
+FrequencyMeter3.ino : This was an early prototype without using the Arduino "attachInterupt" function, just the Espressif interupt library and is just included for interest.                                    
 FrequencyMeterSimple_Final.ino : This is the code you want to use. Note only 1 interrupt is used to count the frequency, the display is updated by polling the internal timer.             
 
 
