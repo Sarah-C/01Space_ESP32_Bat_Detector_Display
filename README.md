@@ -1,4 +1,4 @@
-# 01Space ESP32 module, Hayes Bat Detectorfrequency display
+# 01Space ESP32 module, Hayes Bat Detector frequency display.
 
 This code is for running on the 01Space ESP32 combined with a mini OLED display.
 With it programmed, and connected up to the Haynes Bat Detector circuitry, you can have an accurate frequency monitor to display the currently monitored audio frequency.
