@@ -1,6 +1,9 @@
 /* 
 
    Frequency counter and display - early draft, I wouldn't use this one.
+   Here to show differences between Expressif and Arduino interrupt handling.
+   It uses Espressif's low level interupt commands: https://esp32.com/viewtopic.php?t=777
+   The final version uses Arduino's API.
 
    Unless required by applicable law or agreed to in writing, this
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
