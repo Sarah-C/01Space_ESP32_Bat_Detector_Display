@@ -8,9 +8,10 @@
   
 #include <Arduino.h>
 
+// Input pin
 #define freqInputPin GPIO_NUM_7
-#define squareWavePin GPIO_NUM_8
 
+// Display update timer (not interupt driven)
 unsigned long startMillis;
 unsigned long currentMillis;
 const unsigned long period = 250; // 1000 = 1 display update per second. So 250 is 4 updates a second.
@@ -68,8 +69,8 @@ void setup() {
 }
 
 void loop() {
-  currentMillis = millis();  //get the current "time" (actually the number of milliseconds since the program started)
-  if (currentMillis - startMillis >= period) { //test whether the period has elapsee
+  currentMillis = millis();  //get the current number of milliseconds since the program started
+  if (currentMillis - startMillis >= period) { //test whether the period between updating the display has elapsee
     ltos((counter * 4), buf, 10);
     counter = 0;
     u8g2.clearBuffer();
