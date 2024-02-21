@@ -11,10 +11,9 @@
 #define freqInputPin GPIO_NUM_7
 #define squareWavePin GPIO_NUM_8
 
-// 1 second
 unsigned long startMillis;
 unsigned long currentMillis;
-const unsigned long period = 250;
+const unsigned long period = 250; // 1000 = 1 display update per second. So 250 is 4 updates a second.
 
 // Display
 #include <U8g2lib.h>
