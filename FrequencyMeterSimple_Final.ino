@@ -24,6 +24,7 @@ U8G2_SSD1306_72X40_ER_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);   // Ea
 volatile long unsigned int counter = 0;
 char buf[10];
 
+// Unsigned long to string
 char *ultos_recursive(unsigned long val, char *s, unsigned radix, int pos) {
   int c;
   if (val >= radix)
@@ -35,6 +36,7 @@ char *ultos_recursive(unsigned long val, char *s, unsigned radix, int pos) {
   return s;
 }
 
+// Long to string
 char *ltos(long val, char *s, int radix) {
   if (radix < 2 || radix > 36) {
     s[0] = 0;
